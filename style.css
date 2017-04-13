@@ -3,6 +3,9 @@ body {
   margin: 0;
   padding: 0;
   background: #fafafa;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  color: #450882;
 }
 
 html {
@@ -18,5 +21,17 @@ html {
 .card-container {
   width: 100%;
   max-width: 450px;
+  margin: 0 auto;
   padding: 16px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.3);
+  height: 200px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
